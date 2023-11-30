@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+table
+{
+	border: 4px solid;
+	padding:0px;
+	margin-top:auto;
+}
+
+th,td
+{
+		border: 4px solid;
+		font-family:Verdana, Geneva, sans-serif;
+}
+
+body
+{
+	background-color:#87EFED;
+}

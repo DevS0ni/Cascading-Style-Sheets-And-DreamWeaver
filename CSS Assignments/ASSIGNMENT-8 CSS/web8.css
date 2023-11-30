@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+table
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+th
+{
+	height:70px;
+	text-align:right;
+	vertical-align:right;
+	border-bottom:3px solid green;
+	background-color:#95EEE6;
+	color:white;
+}
+
+tr:nth-child(even)
+{
+	background-color:#FFFF80;
+}
+
+span.a
+{
+	dispaly:inline;
+	height:100px;
+	width:100px;
+	background-color:gray;
+	color:lime;
+	border:1px solid red;
+}
+
+span.b
+{
+	display:inline-block;
+	height:100px;
+	width:100px;
+	background-color:#690;
+	color:#333;
+	border:1px solid MediumSeaGreen;
+}
+
+span.c
+{
+	display:block;
+	height:100px;
+	width:150px;
+	background-color:#9F9;
+	color:#navy;
+	border:1px solid black;
+}
+	
+	
+	

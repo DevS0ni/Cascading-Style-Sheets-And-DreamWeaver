@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link
+{
+	color:#3337EC;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#3337EC;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#64FF64;
+	text-decoration:underline;
+}
+
+a:active
+{
+	color:#0C0;
+	text-decoration:underline;
+}
+
+a:link,a:visited
+{
+	background-color:#9C3;
+	color:#EF3056;
+	padding: 12px 10px;
+	text-decoration:none;
+	display:inline-block;
+}
+
+a:hover,a:active
+{
+	background-color:#2828FF;
+	color:#3F0;
+	padding: 12px 10px;
+	text-decoration:underline;
+	display:inline-block;
+}
+
+ol.a
+{
+	list-style-type:lower-roman;
+}
+
+ol.b
+{
+	list-style-type:upper-roman;
+}
+
+ul.c
+{
+	list-style-type:square;
+}
+
+ul.d
+{
+	list-style-type:disc;
+}
+
+ul.e
+{
+	list-style-type:circle;
+}
+ul li
+{
+	background-color:#8B8B8B;
+	color:#FFF;
+	padding:25px;
+	margin-left:35px;
+}
+
+ol
+{
+	background-color:#8C8CFF;
+	color:#840;
+	padding:25px;
+	margin:5%;
+}
+
+
+

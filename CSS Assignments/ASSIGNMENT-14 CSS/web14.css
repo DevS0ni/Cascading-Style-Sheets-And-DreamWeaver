@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padiing:0;
+	overflow:hidden;
+	background-color:darkblue;
+}
+
+li
+{
+	float:left;
+}
+
+li a
+{
+	display:block;
+	color:white;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration:none;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+a:hover:not(.active)
+{
+	background-color:aqua;
+}
+
+.active
+{
+	background-color:lightskyblue;
+	color:blue;
+}
+

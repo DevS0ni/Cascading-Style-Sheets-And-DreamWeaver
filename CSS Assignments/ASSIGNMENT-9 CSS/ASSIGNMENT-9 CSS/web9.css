@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.static
+{
+	position: static;
+	border: 2px solid lime;
+}
+
+div.relative 
+{
+	position: relative;
+	height: 400px;
+	width:200px;
+	border:2px solid DodgerBlue;
+}
+
+div.absolute
+{
+	position: absolute;
+	height: 200px;
+	width: 100px;
+	border: 2px solid navy;
+}
+
+div.static 
+{
+	position:static
+	border:4px solid MediumSeaGreen;
+}
+
+div.fixed
+{
+	position:fixed;
+	bottom:0;
+	right:0;
+	border:8px outset orchid;
+	background-color:#7F7;
+	width:100%;
+}
+
+div.relative
+{
+	position:relative;
+	border:8px inset orange;
+	width:200px;
+	height:400px;
+}
+
+div.absolute
+{
+	position:absolute;
+	background-color:#818181;
+	right:0;
+	top:80px;
+	border:4px groove tomato;
+	width:200px;
+	height:100px;
+}
+
+p.visible
+{
+	height:50px;
+	width:100px;
+	border:2px solid black;
+	overlow:visible;
+}
+
+p.hidden
+{
+	height:50px;
+	width:100px;
+	border:2px solid black;
+	overflow:hidden;
+}
+
+p.scroll
+{
+	height:150px;
+	width:600px;
+	border:2px solid black;
+	overflow:scroll;
+}
+
+
+
+	
+	
+
+
+
+

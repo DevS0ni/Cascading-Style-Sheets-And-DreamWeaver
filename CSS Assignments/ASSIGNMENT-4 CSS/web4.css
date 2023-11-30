@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url(1.jpg);
+	background-repeat:repeat-y;
+	background-position:top right;
+	margin-right:1000px;
+	background-attachment:fixed;
+}
+
+p
+{
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:left;
+}
+	
+p.dotted
+{
+	border:4px dotted #88E6E3;
+	border-width:medium;
+}
+
+p.groove
+{
+	border:8px groove #79FFAE;
+	border-width:medium;
+}
+
+p.dashed
+{
+	border:12px dashed #FFB66C;
+	border-width:medium;
+}
+
+p.inset
+{
+	border:16px inset #FF75BA;
+	border-width:medium;
+}
+
+p.outset
+{
+	border:20px outset #E296EB;
+	border-width:medium;
+}
+
+p.ridge
+{
+	border:24px ridge #FFFF95;
+	border-width:medium;
+}
+p.solid
+{
+	border:28px solid lime;
+	border-width:medium;
+}
+
+P.left
+{
+	border-left:13px solid green;
+}
+
+div
+{
+	border:3px solid green;
+	background-color:#BCBFED;
+	margin:130px 20px 10px 150px;
+	padding:50px;
+	width:300px;
+	max-width:500px;
+}
+
+	
+	
+	
